@@ -9,7 +9,7 @@ def mountain(nums):
         elif nums[right]<nums[left]:
             right-=1
         else:
-            return nums[left]
+            return nums[left] if 
         
 nums = [0,0,0]
 x = mountain(nums)
