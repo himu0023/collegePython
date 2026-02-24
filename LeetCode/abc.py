@@ -16,6 +16,7 @@ def median(nums1, nums2):
 # Test
 nums1 = [1, 2, 3, 4]
 nums2 = [3, 4, 5, 6]
+nums3 = [1,3,4,5,6]
 
-result = median(nums1, nums2)
+result = median(nums1, nums3)
 print(f"Median = {result}")  # Median = 3.5
